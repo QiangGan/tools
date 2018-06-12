@@ -31,4 +31,5 @@
 
      `alias subl=\''/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'\'`
 
-3. 
+3. [Alfred3](https://www.alfredapp.com/)
+
