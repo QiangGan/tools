@@ -17,6 +17,7 @@
 - Option + Ctrl + o  Optimize import
 - Option + Enter  Auto import
 - cmd + shift + F  Find in path
+- double shift  -- Search everywhere
 
 ### Launcher Script
 
@@ -31,3 +32,4 @@
 Intellij IDEA | Preferences | Editor | File and Code Template
 
 [Help](https://www.jetbrains.com/help/idea/creating-and-managing-modules.html)
+
