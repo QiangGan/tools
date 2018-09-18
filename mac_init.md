@@ -6,7 +6,7 @@
    - 关闭自动更新：在shell配置文件中添加`export HOMEBREW_NO_AUTO_UPDATE=true`
 3. [oh-my-zsh](http://ohmyz.sh/)
    - 安装命令：`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-   - 主题：`ys`
+   - 主题：`ys` `af-magic`
 
 ## 终端配置
 
@@ -32,4 +32,15 @@
      `alias subl=\''/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'\'`
 
 3. [Alfred3](https://www.alfredapp.com/)
+
+=========================================
+
+\# 			设置文件的默认打开方式			\# 
+
+=========================================
+
+* 设置单个文件的默认打开方式
+  * 按住Option + 右击文件 ==> Always Open With ==> 选择默认程序
+* 设置一类文件的默认打开方式(后缀相同)
+  * 右击文件 ==> Get Info ==> Open with ==> Change All
 
