@@ -1,0 +1,2 @@
+1. What's the difference between web server and application server? See also [stack overflow answer](https://stackoverflow.com/questions/936197/what-is-the-difference-between-application-server-and-web-server).
+2. 

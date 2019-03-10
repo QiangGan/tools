@@ -5,7 +5,7 @@
 =======================================
 
 * In file ~/.vimrc set `set number`  set line number
-*  `gg` go to first line
+* `gg` go to first line
 * `shift +g` go to last line
 * `/+[search item]` search content
 * `ngg` go to nth line
@@ -14,6 +14,8 @@
 * `dd` delete the current line
 * `d$` delete the content from current cursor to line end
 * `dw` delete the content from current cursor to word end
+* `o` 在当前行后面添加一行 
+* `O`在当前行前面添加一行
 
 ========================================
 
@@ -32,7 +34,7 @@
 
 * `which [command]` check whether a command exists
 
-* `whereis [filename] `	check whether a file exist
+	 `whereis [filename] `	check whether a file exist
   * -s source file
   * -b binary file
   * -m manual file
@@ -47,6 +49,7 @@
 * `free -h` view memory
 * `cat /proc/cpuinfo` view cpu
 * `cat /etc/centos-release` view system version or `cat /etc/redhat-release`
+* Net stat -nlpt | grep port
 
 =============================================
 
@@ -57,7 +60,7 @@
 ```shell
 # cr.sh :CR Script
 result=$(git stash)
-git pull --rebase origin mainline
+git pull --rebase
 cr $@
 [[ $result =~ "No local changes to save" ]] || git stash pop
 ```
